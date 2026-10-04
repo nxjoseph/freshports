@@ -447,6 +447,7 @@ msgstr "Bu durum, buradaki gibi yeni portlar için özellikle geçerlidir."
 #: classes/port-display.php:1703
 #, php-format
 msgid "Perhaps there is a build error. Check the fallout link: %s"
+msgstr ""
 "Belki bir derleme hatası vardır. Derleme hatası (fallout) bağlantısını "
 "kontrol edin: %s"
 
@@ -1206,7 +1207,7 @@ msgstr ""
 #: include/freshports.php:2008
 #, fuzzy
 msgid "Link to this section"
-msgstr "Siteye giriş yap"
+msgstr "Bu kısma giden bağlantı"
 
 #. TRANSLATORS: keep the line breaks short, this is a plain text email
 #: include/freshports.php:2073
