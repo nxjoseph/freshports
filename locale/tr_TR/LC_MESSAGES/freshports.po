@@ -797,6 +797,8 @@ msgid "Descending Order"
 msgstr "Azalan Sıralama"
 
 #: include/freshports.php:548 include/freshports.php:2273
+#: include/freshports.php:2282 www/package.php:53 www/search.php:343
+#: www/search.php:1206
 msgid "Search"
 msgstr "Ara"
 
@@ -808,7 +810,6 @@ msgstr "Bu portla alakalı sorunları bul"
 msgid "Report an issue related to this port"
 msgstr "Bu portla alakalı bir sorun bildir"
 
-
 #: include/freshports.php:549 www/package.php:53 www/search.php:343
 #: www/search.php:1206
 msgid "Search"
@@ -816,11 +817,11 @@ msgstr "Ara"
 
 #: include/freshports.php:554
 msgid "Find issues related to this port"
-msgstr ""
+msgstr "Bu portla alakalı sorunları bul"
 
 #: include/freshports.php:559
 msgid "Report an issue related to this port"
-msgstr ""
+msgstr "Bu portla alakalı bir sorun bildir"
 
 #: include/freshports.php:565
 #, fuzzy
@@ -1146,7 +1147,7 @@ msgstr "Bu kısma giden bağlantı"
 
 #: include/freshports.php:1555
 msgid "Notes from UPDATING"
-msgstr ""
+msgstr "UPDATING notları"
 
 #: include/freshports.php:1557
 #, fuzzy, php-format
