@@ -761,6 +761,8 @@ msgid "Descending Order"
 msgstr "Azalan Sıralama"
 
 #: include/freshports.php:548 include/freshports.php:2273
+#: include/freshports.php:2282 www/package.php:53 www/search.php:343
+#: www/search.php:1206
 msgid "Search"
 msgstr "Ara"
 
@@ -771,20 +773,6 @@ msgstr "Bu portla alakalı sorunları bul"
 #: include/freshports.php:558
 msgid "Report an issue related to this port"
 msgstr "Bu portla alakalı bir sorun bildir"
-
-
-#: include/freshports.php:548 include/freshports.php:2282 www/package.php:53
-#: www/search.php:343 www/search.php:1206
-msgid "Search"
-msgstr "Ara"
-
-#: include/freshports.php:553
-msgid "Find issues related to this port"
-msgstr ""
-
-#: include/freshports.php:558
-msgid "Report an issue related to this port"
-msgstr ""
 
 #: include/freshports.php:564
 #, fuzzy
@@ -1103,66 +1091,6 @@ msgstr "Bulunan commit sayısı: %d"
 #, php-format
 msgid "(showing only %d on this page)"
 msgstr "(bu sayfada %d kadarı gösteriliyor)"
-
-#: include/freshports.php:1539
-msgid "Notes from UPDATING"
-msgstr ""
-
-#: include/freshports.php:1541
-#, fuzzy, php-format
-msgid "These upgrade notes are taken from %s"
-msgstr "İstek şu adresten geldi %s"
-
-#: include/freshports.php:1584
-msgid ""
-"Commit History - (may be incomplete: for full details, see links to "
-"repositories near top of page)"
-msgstr ""
-
-#: include/freshports.php:1589
-#, php-format
-msgid ""
-"This is a slave port.  You may also want to view the commits to the master "
-"port: %s"
-msgstr ""
-
-#: include/freshports.php:1593
-#, fuzzy
-msgid "Commit"
-msgstr "Commit geçmişi"
-
-#: include/freshports.php:1593
-msgid "Credits"
-msgstr ""
-
-#: include/freshports.php:1593
-msgid "Log message"
-msgstr ""
-
-#: include/freshports.php:1638
-#, php-format
-msgid ""
-"<b>NOTE</b>: This slave port may no longer be vulnerable to issues shown "
-"below because the <a href=\"%s\">master port</a> has been updated."
-msgstr ""
-
-#: include/freshports.php:1678 include/freshports.php:1679
-msgid "First Page"
-msgstr ""
-
-#: include/freshports.php:1680 include/freshports.php:1681
-msgid "Last Page"
-msgstr ""
-
-#: include/freshports.php:1705
-#, fuzzy, php-format
-msgid "Number of commits found: %d"
-msgstr "Commit sayısı: %d"
-
-#: include/freshports.php:1714 www/search.php:1317 www/search.php:1334
-#, php-format
-msgid "(showing only %d on this page)"
-msgstr ""
 
 #: include/freshports.php:1987
 #, fuzzy
