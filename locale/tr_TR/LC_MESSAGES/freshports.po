@@ -656,10 +656,6 @@ msgstr "git"
 msgid "Search ports"
 msgstr "Port Ara"
 
-#: classes/searches.php:39
-msgid "go"
-msgstr ""
-
 #: classes/searches.php:41
 msgid "Advanced Searching options"
 msgstr "Gelişmiş Arama seçenekleri"
@@ -786,28 +782,15 @@ msgstr "Azalan Sıralama"
 
 #: include/freshports.php:548 include/freshports.php:2273
 #: include/freshports.php:2282 www/package.php:53 www/search.php:343
-#: www/search.php:1206
+#: www/search.php:1206 include/freshports.php:549
 msgid "Search"
 msgstr "Ara"
 
-#: include/freshports.php:553
+#: include/freshports.php:553 include/freshports.php:554
 msgid "Find issues related to this port"
 msgstr "Bu portla alakalı sorunları bul"
 
-#: include/freshports.php:558
-msgid "Report an issue related to this port"
-msgstr "Bu portla alakalı bir sorun bildir"
-
-#: include/freshports.php:549 www/package.php:53 www/search.php:343
-#: www/search.php:1206
-msgid "Search"
-msgstr "Ara"
-
-#: include/freshports.php:554
-msgid "Find issues related to this port"
-msgstr "Bu portla alakalı sorunları bul"
-
-#: include/freshports.php:559
+#: include/freshports.php:558 include/freshports.php:559
 msgid "Report an issue related to this port"
 msgstr "Bu portla alakalı bir sorun bildir"
 
@@ -1063,9 +1046,14 @@ msgstr "Telif Hakkı"
 msgid "This material is copyrighted"
 msgstr "Bu materyal telif hakkı ile korunmaktadır"
 
-#: include/freshports.php:1533
+#: include/freshports.php:1533 include/freshports.php:1555
+#, fuzzy
 msgid "Notes from UPDATING"
-msgstr "UPDATING (GÜNCELLEME) dosyasındaki notlar"
+msgstr ""
+"#-#-#-#-#  freshports.po (FreshPorts)  #-#-#-#-#\n"
+"UPDATING (GÜNCELLEME) dosyasındaki notlar\n"
+"#-#-#-#-#  freshports.po (FreshPorts)  #-#-#-#-#\n"
+"UPDATING notları"
 
 #: include/freshports.php:1535
 #, php-format
@@ -1130,71 +1118,6 @@ msgid "(showing only %d on this page)"
 msgstr "(bu sayfada %d kadarı gösteriliyor)"
 
 #: include/freshports.php:1981
-msgid "Link to this section"
-msgstr "Bu kısma giden bağlantı"
-
-#: include/freshports.php:1555
-msgid "Notes from UPDATING"
-msgstr "UPDATING notları"
-
-#: include/freshports.php:1557
-#, fuzzy, php-format
-msgid "These upgrade notes are taken from %s"
-msgstr "İstek şu adresten geldi %s"
-
-#: include/freshports.php:1600
-msgid ""
-"Commit History - (may be incomplete: for full details, see links to "
-"repositories near top of page)"
-msgstr ""
-
-#: include/freshports.php:1605
-#, php-format
-msgid ""
-"This is a slave port.  You may also want to view the commits to the master "
-"port: %s"
-msgstr ""
-
-#: include/freshports.php:1609
-#, fuzzy
-msgid "Commit"
-msgstr "Commit geçmişi"
-
-#: include/freshports.php:1609
-msgid "Credits"
-msgstr ""
-
-#: include/freshports.php:1609
-msgid "Log message"
-msgstr ""
-
-#: include/freshports.php:1654
-#, php-format
-msgid ""
-"<b>NOTE</b>: This slave port may no longer be vulnerable to issues shown "
-"below because the <a href=\"%s\">master port</a> has been updated."
-msgstr ""
-
-#: include/freshports.php:1694 include/freshports.php:1695
-msgid "First Page"
-msgstr ""
-
-#: include/freshports.php:1696 include/freshports.php:1697
-msgid "Last Page"
-msgstr ""
-
-#: include/freshports.php:1721
-#, fuzzy, php-format
-msgid "Number of commits found: %d"
-msgstr "Commit sayısı: %d"
-
-#: include/freshports.php:1730 www/search.php:1317 www/search.php:1334
-#, php-format
-msgid "(showing only %d on this page)"
-msgstr ""
-
-#: include/freshports.php:2008
-#, fuzzy
 msgid "Link to this section"
 msgstr "Bu kısma giden bağlantı"
 
